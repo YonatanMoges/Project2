@@ -1,0 +1,355 @@
+
+/* import fonts from fonts.css file */ 
+@import url(./fonts.css);
+
+
+/* css variables */ 
+@import url(./partials/_variables.css);
+
+/* import global styling */ 
+@import url(./partials/_global.css);
+
+
+#myUL li a {
+    border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Grey background color */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 18px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+  }
+
+/* start navigation */ 
+.header_area {
+    border-bottom: rgb(161, 153, 153);
+}
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem ;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/* end navigation */ 
+
+/* Banner Area */ 
+
+.site-main .site-banner{
+    margin-top: -60px; 
+    margin-bottom: -200px;
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+
+
+/* End Banner Area */ 
+
+/* Start About Area */ 
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+    margin-top: 20px;
+    margin-bottom: 200px
+    
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--roboto);
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/* End About Area */ 
+
+
+/* Services Area */ 
+
+.site-main .services-area{
+    padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 0 14rem;
+}
+
+.site-main .services-area .services-title h1{
+    font-size: 35px;
+}
+
+.site-main > .services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+
+
+
+/* End Services Area */ 
+
+/* Select Area */
+.site-main .select-area{
+    margin: 100px 0;
+}
+.site-main .select-area .select-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.border-style{
+    border-radius: 5px;
+}
+.site-main .select-area .explore-style{
+    padding: 30px;
+}
+.site-main .select-area .about-title{
+    margin-top: 40px;
+}
+.site-main .select-area .showcase-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.site-main .select-area .button-group{
+    margin-top: 40px;
+}
+
+.site-main .select-area .button-group .select-style{
+    padding: 1rem 2rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    font: normal 500 16px/130px var(--roboto);
+    cursor: pointer;
+    margin-bottom: 20px;
+    max-width: 700px;
+    
+
+}
+.site-main .select-area .button-group  .select-style:hover{
+    cursor: pointer
+    
+}
+/* Select Area */
+
+/* Search Area */
+
+.site-main .search-area .search{
+    padding: 10rem 0;
+    margin: 3rem auto;
+}
+
+.site-main .search-area .search .subscribe-title h4{
+    font: normal 700 30px/ 30px var(--roboto);
+    color: black;
+}
+
+.site-main .search-area .search form .input-textbox input{
+    width: 400px;
+    padding: 1.5rem 1rem;
+    border: 1px solid black;
+    background: transparent;
+    color: black;
+    font: normal 500 17px/20px var(--roboto);
+}
+
+.site-main .search-area .search form .input-textbox input::placeholder{
+    color: grey;
+}
+
+.site-main .search-area .search form .btn-submit button{
+    background: whitesmoke;
+    color: #000;
+    padding: .7rem 2rem;
+}
+
+.search-showcase-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Search Area */
+
+/* Grid Area */ 
+
+.site-main .grid-area{
+padding: 4rem 0;
+}
+
+.site-main .grid-area .about-title{
+    margin-bottom: 50px;
+}
+
+.site-main .grid-area .button-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.site-main .grid-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+
+.site-main .grid-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site-main .grid-area .grid .our-project > .title h4{
+    font: normal 700 25px/12px var(--roboto);
+}
+
+.site-main .grid-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+.site-main .grid-area .button-group .select-style{
+    padding: 1rem 2rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    font: normal 500 16px/130px var(--roboto);
+    cursor: pointer;
+    margin-bottom: 20px;
+    max-width: 700px;
+    
+
+}
+.site-main .grid-area .button-group  .select-style:hover{
+    cursor: pointer
+    
+}
+
+/* End Grid  Area */ 
+
+
+/* About Us Area */ 
+
+.site-main .about-area .about-title p{
+    padding: 1rem 7rem;
+}
+
+.site-main .about-area .client{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+}
+
+.site-main .about-area .client .client-img{
+    padding: 2rem;
+}
+
+.site-main .about-area .client .about-client{
+    padding-top: 2rem;
+}
+
+.site-main .about-area .client .about-client h4{
+    font: normal 500 21px/ 20px var(--roboto);
+}
+
+.site-main .about-area .client .about-client p{
+    font-size: 14px;
+}
+
+.site-main .about-area .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+.site-main .about-area .owl-carousel .owl-dots .owl-dot.active span{
+    background: var(--primary-color);
+    width: 12px;
+    height: 12px;
+}
+
+
+
+/* End About Me */ 
+
+
+/* Footer Area */ 
+
+footer.footer-area{
+    padding: 5rem 0;
+    background-color: whitesmoke;
+}
+
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    color: black;
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color);
+}
+
+
+/* End Footer */ 
